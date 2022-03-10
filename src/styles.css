@@ -4,15 +4,15 @@ body{
   background-size: cover;
   color: #ffffff;
 }
+.header img{
+  border-radius: 50%;
+}
 .account{
   width: 360px;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 a{
   color: #ffffff;
-}
-.header img{
-  border-radius: 100px;
 }
 a:hover{
   color: #faf2cc;
@@ -39,4 +39,26 @@ a:hover{
 }
 .foooter{
   padding-top: 20px;
+}
+.current-weather{
+  position: relative;
+}
+.current-weather img{
+  position: absolute;
+  bottom: 40px;
+  right: -20px;
+}
+.forecast{
+  width: 1200px;
+  margin-left: -447px;
+}
+li{
+  list-style: none;
+}
+.forecast .current-weather{
+  padding: 10px;
+  border: 1px solid #ffffff;
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: #ffffff80;
 }
